@@ -1,6 +1,6 @@
 /*
 All code and audio created by Lucas J. Capp
-Most images created by Kade M. Verewolf
+Most images created by Kade M. Verewolf and the rest by lucas J. Capp
 
 *Uncomplete project
 *to see a project that I did back in 7th grade just to get something on the web, go here
