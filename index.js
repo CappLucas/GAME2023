@@ -302,20 +302,20 @@ player.avatar.src="main character.png"
 
 //images---------------------------------------------------------------------------------------------------------------------------
 const newspaper1 = new Image()
-newspaper1.src = "Newpaper 2.png";
+newspaper1.src = "/Newpaper 2.png";
 let newspaper1att = new ImageInfo(0,0,600,400);
 
 
 const newspaper2 = new Image();
-newspaper2.src = "newspaper3.png";
+newspaper2.src = "/newspaper3.png";
 let newspaper2att = new ImageInfo(0,0,500,400);
 
 const newspaper3 = new Image();
-newspaper3.src = "NewspaperHand.png"
+newspaper3.src = "/NewspaperHand.png"
 let newspaper3att = new ImageInfo(0,0,500,400);
 
 const gameTown = new Image();
-gameTown.src = "gameTown.png";
+gameTown.src = "/gameTown.png";
 let gameTownAtt = new ImageInfo(0,0,6250,7202);
 
 let ratio = gameTownAtt.ratio;
@@ -323,19 +323,19 @@ gameTownAtt.width = 500;
 gameTownAtt.height = 500*ratio;
 
 const weaponShop = new Image();
-weaponShop.src = "weaponShop.png"
+weaponShop.src = "/weaponShop.png"
 let weaponShopAtt = new ImageInfo(0,0,478,1000);
 
 const castle = new Image();
-castle.src = "castle.png";
+castle.src = "/castle.png";
 let castleAtt = new ImageInfo(0,0,1080,1080);
 
 const king = new Image();
-king.src = "king character.png"
+king.src = "/king character.png"
 let kingAtt = new ImageInfo(0,0,1000,800)
 
 const knight = new Image()
-knight.src = "knight2.png"
+knight.src = "/knight2.png"
 let knightAtt = new ImageInfo(0,0,313,519)
 
 //functions-------------------------------------------------------------------------------------------------
