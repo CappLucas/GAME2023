@@ -296,13 +296,13 @@ let player = {
 }
 console.log(player.right,player.bottom)
 let avatar = new Image()
-avatar.src = "https://capplucas.github.io/GAME2023/character.png";
+avatar.src = "https://capplucas.github.io/GAME2023/maincharacter.png";
 
-player.avatar.src="https://capplucas.github.io/GAME2023/main character.png"
+player.avatar.src="https://capplucas.github.io/GAME2023/maincharacter.png"
 
 //images---------------------------------------------------------------------------------------------------------------------------
 const newspaper1 = new Image()
-newspaper1.src = "https://capplucas.github.io/GAME2023/Newpaper 2.png";
+newspaper1.src = "https://capplucas.github.io/GAME2023/Newpaper2.png";
 let newspaper1att = new ImageInfo(0,0,600,400);
 
 
@@ -331,7 +331,7 @@ castle.src = "https://capplucas.github.io/GAME2023/castle.png";
 let castleAtt = new ImageInfo(0,0,1080,1080);
 
 const king = new Image();
-king.src = "https://capplucas.github.io/GAME2023/king character.png"
+king.src = "https://capplucas.github.io/GAME2023/kingcharacter.png"
 let kingAtt = new ImageInfo(0,0,1000,800)
 
 const knight = new Image()
