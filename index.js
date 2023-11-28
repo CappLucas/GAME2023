@@ -1,3 +1,4 @@
+window.onload = function(){
 /*
 All code and audio created by Lucas J. Capp
 Most images created by Kade M. Verewolf and the rest by lucas J. Capp
@@ -891,5 +892,5 @@ function gameStart(){
     }
 
 }
-
+}
 //----------------------------------------------------------
