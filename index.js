@@ -1,6 +1,6 @@
 /*
 All code and audio created by Lucas J. Capp
-Most images created by Kade M. Verewolf and the rest by lucas J. Capp
+Most images created by Kade M. Verewolf
 
 *Uncomplete project
 *to see a project that I did back in 7th grade just to get something on the web, go here
@@ -296,26 +296,26 @@ let player = {
 }
 console.log(player.right,player.bottom)
 let avatar = new Image()
-avatar.src = "https://capplucas.github.io/GAME2023/character.png";
+avatar.src = "main character.png";
 
-player.avatar.src="https://capplucas.github.io/GAME2023/main character.png"
+player.avatar.src="main character.png"
 
 //images---------------------------------------------------------------------------------------------------------------------------
 const newspaper1 = new Image()
-newspaper1.src = "https://capplucas.github.io/GAME2023/Newpaper2.png";
+newspaper1.src = "Newpaper 2.png";
 let newspaper1att = new ImageInfo(0,0,600,400);
 
 
 const newspaper2 = new Image();
-newspaper2.src = "https://capplucas.github.io/GAME2023/newspaper3.png";
+newspaper2.src = "newspaper3.png";
 let newspaper2att = new ImageInfo(0,0,500,400);
 
 const newspaper3 = new Image();
-newspaper3.src = "https://capplucas.github.io/GAME2023/NewspaperHand.png"
+newspaper3.src = "NewspaperHand.png"
 let newspaper3att = new ImageInfo(0,0,500,400);
 
 const gameTown = new Image();
-gameTown.src = "https://capplucas.github.io/GAME2023/gameTown.png";
+gameTown.src = "gameTown.png";
 let gameTownAtt = new ImageInfo(0,0,6250,7202);
 
 let ratio = gameTownAtt.ratio;
@@ -323,19 +323,19 @@ gameTownAtt.width = 500;
 gameTownAtt.height = 500*ratio;
 
 const weaponShop = new Image();
-weaponShop.src = "https://capplucas.github.io/GAME2023/weaponShop.png"
+weaponShop.src = "weaponShop.png"
 let weaponShopAtt = new ImageInfo(0,0,478,1000);
 
 const castle = new Image();
-castle.src = "https://capplucas.github.io/GAME2023/castle.png";
+castle.src = "castle.png";
 let castleAtt = new ImageInfo(0,0,1080,1080);
 
 const king = new Image();
-king.src = "https://capplucas.github.io/GAME2023/king character.png"
+king.src = "king character.png"
 let kingAtt = new ImageInfo(0,0,1000,800)
 
 const knight = new Image()
-knight.src = "https://capplucas.github.io/GAME2023/knight2.png"
+knight.src = "knight2.png"
 let knightAtt = new ImageInfo(0,0,313,519)
 
 //functions-------------------------------------------------------------------------------------------------
