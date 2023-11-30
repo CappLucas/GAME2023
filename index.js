@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 window.onload = function(){
 /*
 All code and audio created by Lucas J. Capp
