@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+window.onload = function(){
 /*
 All code and audio created by Lucas J. Capp
 Most images created by Kade M. Verewolf
@@ -338,6 +339,16 @@ let kingAtt = new ImageInfo(0,0,1000,800)
 const knight = new Image()
 knight.src = "knight2.png"
 let knightAtt = new ImageInfo(0,0,313,519)
+
+knight.onload = function(){
+    king.onload = function(){
+        castle.onload = function(){
+            weaponShop.onload = function(){
+                gameTown.onload() = function(){
+                    newspaper1.onload = function(){
+                        newspaper2.onload = function(){
+                            newspaper3.onload = function(){
+                                
 
 //functions-------------------------------------------------------------------------------------------------
 let townHitBoxes = [[100,100,100,100],[250,0,100,50]]
@@ -1235,7 +1246,27 @@ let kingAtt = new ImageInfo(0,0,1000,800)
 const knight = new Image()
 knight.src = "https://capplucas.github.io/GAME2023/knight2.png"
 let knightAtt = new ImageInfo(0,0,313,519)
-
+    
+let loaded = false;
+//kinda hideous but didn't know how to fix yet
+knight.onload = function(){
+    king.onload = function(){
+        castle.onload = function(){
+            weaponShop.onload = function(){
+                gameTown.onload = function(){
+                    newspaper1.onload = function(){
+                        newspaper2.onload = function(){
+                            newspaper3.onload = function(){
+                                loaded = true;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+    
 //functions-------------------------------------------------------------------------------------------------
 let townHitBoxes = [[100,100,100,100],[250,0,100,50]]
 
@@ -1788,6 +1819,15 @@ function gameStart(){
         ctx.fillRect(player.x,player.bottom,10,10)
     }
 
+}
+}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 }
 //----------------------------------------------------------
